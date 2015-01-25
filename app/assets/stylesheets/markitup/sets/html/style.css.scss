@@ -65,3 +65,20 @@
 .markItUp .preview a {
 	background-image: image-url("markitup/sets/html/preview.png");
 }
+
+.markItUp .code a {
+  background-image: image-url("markitup/sets/html/code.png");
+}
+
+.markItUp .quotes a {
+  background-image: image-url("markitup/sets/html/quotes.png");
+}
+
+.markItUp .test:before a {
+{
+  content: "\f09b";
+  font-family: FontAwesome;
+
+  /* more styling for the icon, including color, font-size, positioning, etc. */
+}
+}
