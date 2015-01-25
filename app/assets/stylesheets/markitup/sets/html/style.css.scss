@@ -74,11 +74,9 @@
   background-image: image-url("markitup/sets/html/quotes.png");
 }
 
-.markItUp .test a:before {
-{
+.markItUp .test:before a {
   content: "\f09b";
   font-family: FontAwesome;
 
   /* more styling for the icon, including color, font-size, positioning, etc. */
-}
 }
