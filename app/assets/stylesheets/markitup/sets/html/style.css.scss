@@ -51,8 +51,12 @@
 	background-image: image-url("markitup/sets/html/link.png");
 }
 
-.markItUp .clean a {
-	background-image: image-url("markitup/sets/html/clean.png");
+.markItUp .clean a:after {
+    color:#000;
+    content:"f17b";
+    font-family:"FontAwesome";
+    font-size: 20px;
+
 }
 .markItUp .preview a {
 	background-image: image-url("markitup/sets/html/preview.png");
