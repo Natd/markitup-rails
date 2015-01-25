@@ -74,7 +74,7 @@
   background-image: image-url("markitup/sets/html/quotes.png");
 }
 
-.markItUp .test:before a {
+.markItUp .test a:before {
 {
   content: "\f09b";
   font-family: FontAwesome;
